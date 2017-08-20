@@ -1,0 +1,36 @@
+console
+run
+test
+run
+def pascal(c: Int, r: Int): Int ={
+      var a=1;
+      if(c>r) a=0
+      if(r==1) a=1
+      else {
+        a = (pascal(c, r - 1) + pascal(c + 1, r - 1))
+      }
+      a
+compile
+run
+test
+console
+compile
+run
+test
+console
+compile
+run
+test
+compile
+run
+test
+compile
+run
+test
+cmpile
+compile
+run
+test
+submit
+submit antarasb@gmail.com TsgaHY61iUCAAFyq
+submit antarasb@gmail.com sWWYUZPLiAJRynRJ
